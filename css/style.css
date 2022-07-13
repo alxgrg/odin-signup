@@ -1,0 +1,33 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: #333;
+  background: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.header {
+  width: 35vw;
+  height: 100vh;
+  background-color: rgb(219, 184, 184);
+  background-image: url('../plants.jpeg');
+  background-size: auto 100%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 100%;
+  background-color: #333;
+  opacity: 0.7;
+  padding: 20px;
+  text-align: center;
+}
