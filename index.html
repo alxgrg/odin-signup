@@ -11,7 +11,10 @@
     <div class="container">
       <header class="header">
         <div class="logo">
-          <h1>Odin SignUp!</h1>
+          <div class="inner">
+            <img src="images/logo.png" alt="" />
+            <h1>ODIN</h1>
+          </div>
         </div>
       </header>
 
@@ -27,6 +30,7 @@
 
         <form class="form">
           <div class="form-wrap">
+            <p class="form-tagline">Let's do this!</p>
             <div class="controls">
               <div class="control">
                 <label for="firstName">First Name</label>
@@ -34,7 +38,6 @@
                   type="text"
                   class="form-control"
                   id="firstName"
-                  placeholder="First Name"
                   required
                 />
               </div>
@@ -44,36 +47,20 @@
                   type="text"
                   class="form-control"
                   id="lastName"
-                  placeholder="Last Name"
                   required
                 />
               </div>
               <div class="control">
                 <label for="email">Email</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email"
-                  placeholder="Email"
-                />
+                <input type="email" class="form-control" id="email" />
               </div>
               <div class="control">
                 <label for="phone">Phone Number</label>
-                <input
-                  type="tel"
-                  class="form-control"
-                  id="phone"
-                  placeholder="Phone Number"
-                />
+                <input type="tel" class="form-control" id="phone" />
               </div>
               <div class="control">
                 <label for="password">Password</label>
-                <input
-                  type="password"
-                  class="form-control"
-                  id="password"
-                  placeholder="Password"
-                />
+                <input type="password" class="form-control" id="password" />
               </div>
               <div class="control">
                 <label for="confirm-password">Confirm Password</label>
@@ -81,15 +68,15 @@
                   type="password"
                   class="form-control"
                   id="confirm-password"
-                  placeholder="Confirm Password"
                 />
               </div>
             </div>
           </div>
           <div class="actions">
-            <button>Sign in</button>
+            <button>Creat Account</button>
           </div>
         </form>
+        <p class="log-in">Already have an account? <a href="#">Log in</a></p>
       </main>
     </div>
 
